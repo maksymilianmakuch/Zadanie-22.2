@@ -1,0 +1,61 @@
+PS D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp> npm start
+
+> mern-starter@2.0.0 start D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp
+> cross-env BABEL_DISABLE_CACHE=1 NODE_ENV=development nodemon index.js
+
+[nodemon] 1.14.11
+[nodemon] reading config .\nodemon.json
+[nodemon] to restart at any time, enter `rs`
+[nodemon] or send SIGHUP to 15576 to restart
+[nodemon] ignoring: .\.git/**/* node_modules/**/node_modules
+[nodemon] watching: D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\server/**/* D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\Intl/**/*
+[nodemon] watching extensions: js,json
+[nodemon] starting `node index.js`
+[nodemon] forking
+[nodemon] child pid: 15796
+[nodemon] watching 14 files
+Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+module.js:515
+    throw err;
+    ^
+
+Error: Cannot find module 'D:\Users\Maksym\Documents\Kodilla\Zadanie'
+    at Function.Module._resolveFilename (module.js:513:15)
+    at Function.Module._load (module.js:463:25)
+    at Function.Module.runMain (module.js:653:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-core\lib\transformation\file\index.js:590
+      throw err;
+      ^
+
+Error: D:/Users/Maksym/Documents/Kodilla/Zadanie 22.2/myApp/client/modules/App/App.js: Command failed: node D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\webpack\bin\webpack.js D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\client\modules\App\App.css C:\Users\MAKSYM~1\AppData\Local\Temp\.webpack.res.1517075510461_963517.js --config ./webpack.config.babel.js --bail
+module.js:515
+    throw err;
+    ^
+
+Error: Cannot find module 'D:\Users\Maksym\Documents\Kodilla\Zadanie'
+    at Function.Module._resolveFilename (module.js:513:15)
+    at Function.Module._load (module.js:463:25)
+    at Function.Module.runMain (module.js:653:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+
+    at checkExecSyncError (child_process.js:598:13)
+    at execSync (child_process.js:638:13)
+    at exports.default (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-plugin-webpack-loaders\lib\runWebPackSync.js:39:51)
+    at PluginPass.CallExpression (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-plugin-webpack-loaders\lib\plugin.js:102:60)
+    at newFn (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\visitors.js:276:21)
+    at NodePath._call (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\path\context.js:76:18)
+    at NodePath.call (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\path\context.js:48:17)
+    at NodePath.visit (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\path\context.js:105:12)
+    at TraversalContext.visitQueue (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\context.js:150:16)
+    at TraversalContext.visitSingle (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\context.js:108:19)
+    at TraversalContext.visit (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\context.js:192:19)
+    at Function.traverse.node (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\index.js:114:17)
+    at NodePath.visit (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\path\context.js:115:19)
+    at TraversalContext.visitQueue (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\context.js:150:16)
+    at TraversalContext.visitMultiple (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\context.js:103:17)
+    at TraversalContext.visit (D:\Users\Maksym\Documents\Kodilla\Zadanie 22.2\myApp\node_modules\babel-traverse\lib\context.js:190:19)
+[nodemon] app crashed - waiting for file changes before starting...
